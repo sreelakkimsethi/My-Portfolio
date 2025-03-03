@@ -710,17 +710,115 @@ button:hover {
     background-color: #f39c12;
     transform: translateY(-3px);
 }
-
-@media screen and (max-width: 768px) {
+/* Responsive Styles */
+@media (max-width: 1200px) {
     .contact-container {
-        flex-direction: column;
-        padding: 20px;
+        padding: 200px;
     }
-    .contact-left, .contact-right {
-        max-width: 100%;
-        margin-bottom: 20px;
+
+    .contact-left h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact-left h3 {
+        font-size: 1.8rem;
+    }
+
+    .contact-left p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 100%;
     }
 }
+
+@media (max-width: 992px) {
+    .contact-container {
+        flex-direction: column;
+        padding: 150px;
+        text-align: center;
+    }
+
+    .contact-left, .contact-right {
+        max-width: 80%;
+    }
+
+    form {
+        align-items: center;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 100px;
+    }
+
+    .contact-left h2 {
+        font-size: 2rem;
+    }
+
+    .contact-left h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-left p {
+        font-size: 1.1rem;
+    }
+
+    .contact-left, .contact-right {
+        max-width: 90%;
+    }
+
+    input, textarea {
+        font-size: 0.95rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 50px;
+    }
+
+    .contact-left h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-left h3 {
+        font-size: 1.3rem;
+    }
+
+    .contact-left p {
+        font-size: 1rem;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px;
+        width: 100%;
+    }
+}
+
 
 
 /* projects */
