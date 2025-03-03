@@ -592,12 +592,12 @@ p {
     .grid-container {
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 100px;
     }
 
     .flip-box {
         width: 260px;
-        height: 240px;
+        height: 200px;
     }
 }
 
