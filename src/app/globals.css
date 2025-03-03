@@ -585,7 +585,7 @@ p {
 @media (max-width: 768px) {
     .main-heading {
         font-size: 2rem;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         text-align: center;
     }
 
@@ -596,15 +596,15 @@ p {
     }
 
     .flip-box {
-        width: 260px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media (max-width: 480px) {
     .main-heading {
         font-size: 1.8rem;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
 
     .grid-container {
