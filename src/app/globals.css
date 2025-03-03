@@ -585,7 +585,7 @@ p {
 @media (max-width: 768px) {
     .main-heading {
         font-size: 2rem;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         text-align: center;
     }
 
