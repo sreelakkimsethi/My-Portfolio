@@ -241,10 +241,9 @@ body {
     }
     .download-cv {
         font-size: 0.9rem;
-        padding: 8px 16px;
+        padding: 8px 10px;
     }
 }
-
 
 /* Aboutme Section*/
 
@@ -587,7 +586,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 200px;
+    padding: 250px;
   
 }
 
