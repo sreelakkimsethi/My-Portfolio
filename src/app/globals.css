@@ -582,7 +582,7 @@ p {
 /* Responsive Styles */
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .main-heading {
         font-size: 12rem;
         margin-bottom: 0px;
