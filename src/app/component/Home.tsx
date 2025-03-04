@@ -18,25 +18,39 @@ const ProfileSection = () => {
                 </p>
                 <div className="social-icons">
                     <i>
-                        <img 
-                            src="https://cdn2.iconfinder.com/data/icons/New-Social-Media-Icon-Set-V11/512/email.png" 
-                            alt="Email Icon" 
-                        />
+                    <a href="mailto:sravyamogali16@gmail.com">
+    <img 
+        src="https://cdn2.iconfinder.com/data/icons/New-Social-Media-Icon-Set-V11/512/email.png" 
+        alt="Email Icon" 
+        width="40"
+        height="40"
+    />
+</a>
+
                     </i>
                     <i>
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl74JHLTYuF66t7yukctKxI_jBwEgzWilnHQ&s" 
-                            alt="LinkedIn Icon" 
-                        />
+                       
+                        <a href="https://www.linkedin.com/in/sravya-mogali-67b537249" target="_blank">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl74JHLTYuF66t7yukctKxI_jBwEgzWilnHQ&s"
+         alt="LinkedIn Icon"/>
+</a>
+
                     </i>
                     <i>
-                        <img 
-                            src="https://icones.pro/wp-content/uploads/2021/06/symbole-github-orange.png" 
-                            alt="GitHub Icon" 
-                        />
+                       
+                        <a href="https://github.com/sravya5454" target="_blank">
+    <img src="https://icones.pro/wp-content/uploads/2021/06/symbole-github-orange.png"  
+         alt="GitHub Icon"/>
+</a>
+
                     </i>
                 </div>
+                
+                <a href="../../SRAVYA_MOGALI.RESUME.PDF" download="SRAVYA_MOGALI.RESUME.PDF">
                 <button className="download-cv">Download CV</button>
+   
+</a>
+
             </div>
         </div>
     </div>
