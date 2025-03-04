@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-   
+width:100%;
+
     color: #333;
     box-sizing: border-box;
 }
@@ -494,7 +495,7 @@ p {
     flex-direction: column;
    
     align-items: center;
-    height: 100vh;
+  
    
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -503,7 +504,7 @@ p {
 .main-heading {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
     color: #c97c2a;
 }
 
@@ -580,53 +581,61 @@ p {
 }
 
 /* Responsive Styles */
-
-
+/* Mobile devices (up to 600px) */
 @media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
     .main-heading {
-        font-size: 12rem;
-        margin-bottom: 0px;
+        font-size: 2rem;
+        margin-bottom: 30px;
         text-align: center;
     }
 
     .grid-container {
         flex-direction: column;
+        gap: 50px;
         align-items: center;
-        gap: 10px;
     }
 
     .flip-box {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 220px;
+    }
+
+    .flip-box-front, .flip-box-back {
+        font-size: 1.2rem;
     }
 }
 
-@media (max-width: 480px) {
-    .main-heading {
-        font-size: 1.8rem;
-        margin-bottom: 50px;
-    }
-
+/* Tablets (601px - 1024px) */
+@media (max-width: 1024px) {
     .grid-container {
-        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
     }
 
     .flip-box {
-        width: 220px;
-        height: 200px;
+        width: 260px;
+        height: 230px;
     }
 
-    .flip-box-front,
-    .flip-box-back {
-        font-size: 1.2rem;
-    }
-
-    h2 {
+    .flip-box-front, .flip-box-back {
         font-size: 1.3rem;
     }
+}
 
-    p {
-        font-size: 0.9rem;
+/* Larger screens (1025px and above) */
+@media (min-width: 1025px) {
+    .grid-container {
+        gap: 100px;
+    }
+
+    .flip-box {
+        width: 280px;
+        height: 250px;
     }
 }
 
@@ -837,9 +846,9 @@ button:hover {
   }
   
   .project-card {
-    width: 60%; /* Reduce this percentage to make the box smaller */
-    padding: 15px; /* Decrease padding for a more compact look */
-    margin: 10px auto; /* Center the box */
+    width: 60%; 
+    padding: 15px; 
+    margin: 10px auto; 
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -872,4 +881,5 @@ button:hover {
     0% { opacity: 0; transform: translateY(20px); }
     100% { opacity: 1; transform: translateY(0); }
   }
+  
   
