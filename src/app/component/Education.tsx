@@ -13,9 +13,9 @@ const EducationFlipBox = () => {
                         Bachelor&apos;s <br />of Technology
                     </div>
                     <div className="flip-box-back">
-                        <h2>Computer Science &amp; Engineering</h2>
-                        <p>Adarsh College of Engineering | Chebrolu | 2020 - 2024</p>
-                        <p>Grade: 7.2/10</p>
+                        <h2>Mechanical &amp; Engineering</h2>
+                        <p>Pragti Engineering College | Suramapalem | 2020 - 2023</p>
+                        <p>Grade: 7.6/10</p>
                     </div>
                 </div>
             </div>
@@ -23,12 +23,12 @@ const EducationFlipBox = () => {
             <div className="flip-container">
                 <div className="flip-box">
                     <div className="flip-box-front">
-                        Intermediate
+                        Diploma
                     </div>
                     <div className="flip-box-back">
-                        <h2>Intermediate</h2>
-                        <p>Madhuri Junior College<br /> | MPC | Gollaprolu | 2018 - 2020</p>
-                        <p>Grade: 6.7/10</p>
+                        <h2>Diploma</h2>
+                        <p>Govt Polytecnic College DRRM <br /> | Mechanical | Ramachandrapuram | 2017 - 2020</p>
+                        <p>Percentage: 72%</p>
                     </div>
                 </div>
             </div>
@@ -40,14 +40,13 @@ const EducationFlipBox = () => {
                     </div>
                     <div className="flip-box-back">
                         <h2>Secondary School of Education</h2>
-                        <p>Madhuri Vidhyalaya Gollaprolu | 2017 - 2018</p>
+                        <p>Naren E.M High School, Yeleswaram | 2016 - 2017</p>
                         <p>Grade: 8.8/10</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
     );
 };
 

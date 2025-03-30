@@ -8,7 +8,7 @@ const ContactForm = () => {
         </div>
     
         <div className="contact-right">
-            <form action="mailto:sravyamogali16@gmail.com" method="post" >
+            <form action="mailto:nandavamsisingireddy@gmail.com" method="post" >
                 <input type="text" placeholder="Enter Your Name" />
                 <input type="email" placeholder="Enter Your Email" />
                 <input type="text" placeholder="Enter Your Subject" />

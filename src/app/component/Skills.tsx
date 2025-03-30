@@ -57,11 +57,11 @@ const Skills = () => {
     
                 <div className="skill-card">
                     <img 
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4w6fYaioeGBmSpcbln24RL1dScHYUv7IiA&s"  
+                        src="../../icons8-azure-96.png"  
                         className="image-logo" 
-                        alt="Redux Toolkit Logo" 
+                        alt="Azure Cloud" 
                     />
-                    <h3>Redux Toolkit</h3>
+                    <h3>Azure Cloud</h3>
                 </div>
             </div>
     
@@ -72,7 +72,7 @@ const Skills = () => {
                         className="image-logo" 
                         alt="Python Logo" 
                     />
-                    <h3 className="named-card">Python (Basics)</h3>
+                    <h3 className="named-card">Python</h3>
                 </div>
             </div>
     

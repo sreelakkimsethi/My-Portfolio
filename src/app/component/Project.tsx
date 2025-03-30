@@ -2,7 +2,17 @@ const PortfolioProjectsComponent = () => {
     return (
       <div className="portfolio-container" id="experience">
       <h1 className="portfolio-title">My Projects</h1>
-  
+      <div className="project-card">
+          <h2>Deployed a Cloud-Library app in Azure Cloud</h2>
+          <p><strong>Technologies:</strong> Azure (App Service, AKS, Functions), .NET, Docker, Kubernetes, Azure DevOps, GitHub Actions.</p>
+          <p><strong>Description:</strong> A microservices-based library app deployed on Azure for scalability and efficiency..</p>
+          <ul>
+              <li>Designed and deployed microservices on Azure.</li>
+              <li>Automated CI/CD with Azure DevOps & GitHub Actions.</li>
+              <li>Scaled with Kubernetes and serverless functions.</li>
+              <li>Monitored performance using Azure tools.</li>
+          </ul>
+      </div>
       <div className="project-card">
           <h2>EdTech Management Portal</h2>
           <p><strong>Description:</strong> An interactive web platform that enables students to explore and learn various technologies. The portal allows students to track assignments, view scores, manage learning schedules, and receive job notifications.</p>
@@ -17,25 +27,6 @@ const PortfolioProjectsComponent = () => {
           </ul>
       </div>
   
-      <div className="project-card">
-          <h2>Enabling Efficient and Privacy-Preserving Mobile Cloud Storage</h2>
-          <p><strong>Technologies:</strong> Java, MySQL, JavaScript, Cloud Computing, Data Encryption, Privacy-preserving Techniques</p>
-          <p><strong>Description:</strong> Designed a secure mobile cloud storage scheme to preserve data privacy while ensuring data confidentiality.</p>
-          <ul>
-              <li>Assisted in implementing encryption techniques to secure data before cloud storage.</li>
-              <li>Worked on optimizing storage performance and enhancing security measures.</li>
-          </ul>
-      </div>
-  
-      <div className="project-card">
-          <h2>JavaScript Developer - Shripriti Educational &amp; IT Hub (INTERNSHIP)</h2>
-          <p><strong>Duration:</strong> January 2024 - May 2024</p>
-          <ul>
-              <li>Developed interactive and user-friendly web applications using JavaScript, HTML, and CSS.</li>
-              <li>Improved front-end functionality and responsiveness for better user experience.</li>
-              <li>Collaborated with a team to enhance website performance and efficiency.</li>
-          </ul>
-      </div>
   </div>
   
     );

@@ -4,21 +4,22 @@ const ProfileSection = () => {
         <div className="profile-content">
             <div className="profile-image-container1">
                 <img 
-                    src="../../WhatsApp Image 2025-02-25 at 8.32.45 PM-removebg-preview.jpg" 
+                    src="../../1702144066516.jpg" 
                     alt="Profile" 
                     className="profile-image1" 
                 />
             </div>
             <div className="profile-text">
-                <h1>Hey I&apos;m <span className="highlight">Sravya Mogali</span></h1>
+                <h1>Hey I&apos;m <span className="highlight">Nandavamsi Singireddy</span></h1>
                 <h2>I&apos;m a <span className="highlight">Developer</span></h2>
                 <p>
-                    Passionate and skilled fresher with a strong foundation in modern technologies and a quick learning ability. 
-                    Eager to contribute to a dynamic team and grow professionally.
+                Software Engineer with strong proficiency in Python and hands-on experience in Azure cloud. 
+                Skilled in building scalable applications, automation, and cloud-based solutions. 
+                Passionate about solving complex problems and delivering efficient, high-quality software.
                 </p>
                 <div className="social-icons">
                     <i>
-                    <a href="mailto:sravyamogali16@gmail.com">
+                    <a href="mailto:nandavamsisingireddy@gmail.com">
     <img 
         src="https://cdn2.iconfinder.com/data/icons/New-Social-Media-Icon-Set-V11/512/email.png" 
         alt="Email Icon" 
@@ -46,7 +47,7 @@ const ProfileSection = () => {
                     </i>
                 </div>
                 
-                <a href="../../SRAVYA_MOGALI.RESUME.PDF" download="SRAVYA_MOGALI.RESUME.PDF">
+                <a href="../../Nandavamsi_Singireddy.PDF" download="Nandavamsi_Singireddy.PDF">
                 <button className="download-cv">Download CV</button>
    
 </a>
