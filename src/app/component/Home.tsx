@@ -47,7 +47,7 @@ const ProfileSection = () => {
                     </i>
                 </div>
                 
-                <a href="../../Nandavamsi_Singireddy.PDF" download="Nandavamsi_Singireddy.PDF">
+                <a href="../../Nandavamsi_Singireddy.pdf" download="Nandavamsi_Singireddy.PDF">
                 <button className="download-cv">Download CV</button>
    
 </a>
