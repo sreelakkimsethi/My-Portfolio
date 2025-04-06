@@ -3,23 +3,23 @@ const ProfileSection = () => {
         <div className="profile-container" id="about">
         <div className="profile-content">
             <div className="profile-image-container1">
-                <img 
+                <img
                     src="../../1702144066516.jpg" 
                     alt="Profile" 
                     className="profile-image1" 
                 />
             </div>
             <div className="profile-text">
-                <h1>Hey I&apos;m <span className="highlight">Nandavamsi Singireddy</span></h1>
+                <h1>Hey I&apos;m <span className="highlight">Devisri Lakkimsetti</span></h1>
                 <h2>I&apos;m a <span className="highlight">Developer</span></h2>
                 <p>
-                Software Engineer with strong proficiency in Python and hands-on experience in Azure cloud. 
-                Skilled in building scalable applications, automation, and cloud-based solutions. 
+                Software Engineer with strong proficiency in Python and ARTIFICIAL INTELLIGENCE and MACHINE LEARNING. 
+                Skilled in building scalable applications, Websites, and MachineLearning-based solutions. 
                 Passionate about solving complex problems and delivering efficient, high-quality software.
                 </p>
                 <div className="social-icons">
                     <i>
-                    <a href="mailto:nandavamsisingireddy@gmail.com">
+                    <a href="mailto:sreelakkimsethi@gmail.com">
     <img 
         src="https://cdn2.iconfinder.com/data/icons/New-Social-Media-Icon-Set-V11/512/email.png" 
         alt="Email Icon" 

@@ -13,8 +13,8 @@ const EducationFlipBox = () => {
                         Bachelor&apos;s <br />of Technology
                     </div>
                     <div className="flip-box-back">
-                        <h2>Mechanical &amp; Engineering</h2>
-                        <p>Pragti Engineering College | Suramapalem | 2020 - 2023</p>
+                        <h2>AIML&amp; Engineering</h2>
+                        <p>KIET Engineering College | Korangi | 2021 - 2025</p>
                         <p>Grade: 7.6/10</p>
                     </div>
                 </div>
@@ -23,12 +23,12 @@ const EducationFlipBox = () => {
             <div className="flip-container">
                 <div className="flip-box">
                     <div className="flip-box-front">
-                        Diploma
+                         Intermediate
                     </div>
                     <div className="flip-box-back">
-                        <h2>Diploma</h2>
-                        <p>Govt Polytecnic College DRRM <br /> | Mechanical | Ramachandrapuram | 2017 - 2020</p>
-                        <p>Percentage: 72%</p>
+                        <h2>Intermediate</h2>
+                        <p>Chambers Junior College <br /> | M.P.C | Pallakol | 2019 - 2021</p>
+                        <p>Percentage: 83%</p>
                     </div>
                 </div>
             </div>
@@ -40,8 +40,8 @@ const EducationFlipBox = () => {
                     </div>
                     <div className="flip-box-back">
                         <h2>Secondary School of Education</h2>
-                        <p>Naren E.M High School, Yeleswaram | 2016 - 2017</p>
-                        <p>Grade: 8.8/10</p>
+                        <p>Z.P.P  E.M High School, Mori | 2018 - 2019</p>
+                        <p>Grade: 9.0/10</p>
                     </div>
                 </div>
             </div>

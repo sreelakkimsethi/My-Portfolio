@@ -6,23 +6,24 @@ const AboutMe = () => {
             </div>
 
             <div className="content-section">
-               
                 <div className="home">
-                <p className="description">
-    Hello! I&apos;m <span className="name-highlight">Nandavamsi Singireddy</span>,  a motivated and detail-oriented web developer with expertise in React.js, Next.js, JavaScript, HTML, and CSS. I specialize in building responsive and dynamic web applications and integrating REST APIs. My passion lies in crafting user-centric solutions while staying up to date with the latest technologies.
-    <br /> With hands-on experience in full-stack development and cloud storage security, I bring a problem-solving mindset to Agile-driven teams. My internship experiences as a JavaScript and Full Stack Developer have strengthened my ability to develop robust and scalable applications.
-    <br />I am eager to contribute my skills to innovative projects and collaborate on impactful solutions that push the boundaries of web development.
-
-
-</p>
-
+                    <p className="description">
+                        Hello! I'm <span className="name-highlight">DEVISRI Lakkimsetti</span>, a passionate <strong>Full Stack Developer</strong> skilled in <strong>React.js, Node.js, JavaScript, HTML, CSS, and Bootstrap</strong>. I build responsive, user-focused web applications and seamlessly integrate REST APIs.
+                        <br /><br />
+                        With experience in <strong>Full-Stack Development</strong> and <strong>AI/ML</strong>, I bring a strong problem-solving mindset to Agile teams. I've contributed to real-time, scalable projects during my internships.
+                        <br /><br />
+                        I'm a quick learner who thrives in collaborative environments and enjoys tackling complex challenges.
+                        <br /><br />
+                        Outside of coding, I love exploring new tech, participating in hackathons, and working on impactful, AI-driven web solutions.
+                        <br /><br />
+                        🚀 <strong>Mission:</strong> To build meaningful digital products that make a difference.
+                    </p>
                 </div>
 
-              
                 <div className="profile-image-container1">
                     <img 
                         src=" https://img.freepik.com/premium-vector/woman-working-with-code-language-algorithm-coder-character_81894-7228.jpg" 
-                        alt="Nandavamsi Singireddy" 
+                        alt="Devisri Lakkimsetti" 
                         className="profile-image1" 
                     />
                 </div>
