@@ -31,7 +31,7 @@ const ProfileSection = () => {
                     </i>
                     <i>
                        
-                        <a href="https://www.linkedin.com/in/sravya-mogali-67b537249" target="_blank">
+                        <a href="https://www.linkedin.com/in/lakkimsetti-sree-721466268/" target="_blank">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl74JHLTYuF66t7yukctKxI_jBwEgzWilnHQ&s"
          alt="LinkedIn Icon"/>
 </a>
@@ -39,7 +39,7 @@ const ProfileSection = () => {
                     </i>
                     <i>
                        
-                        <a href="https://github.com/sravya5454" target="_blank">
+                        <a href="https://github.com/sreelakkimsethi" target="_blank">
     <img src="https://icones.pro/wp-content/uploads/2021/06/symbole-github-orange.png"  
          alt="GitHub Icon"/>
 </a>
