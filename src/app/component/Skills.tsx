@@ -57,11 +57,11 @@ const Skills = () => {
     
                 <div className="skill-card">
                     <img 
-                        src="../../icons8-azure-96.png"  
+                        src="../../node-js.svg"  
                         className="image-logo" 
-                        alt="Azure Cloud" 
+                        alt="Node JS" 
                     />
-                    <h3>Azure Cloud</h3>
+                    <h3>Node Js</h3>
                 </div>
             </div>
     

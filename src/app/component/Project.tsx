@@ -3,27 +3,25 @@ const PortfolioProjectsComponent = () => {
       <div className="portfolio-container" id="experience">
       <h1 className="portfolio-title">My Projects</h1>
       <div className="project-card">
-          <h2>Deployed a Cloud-Library app in Azure Cloud</h2>
-          <p><strong>Technologies:</strong> Azure (App Service, AKS, Functions), .NET, Docker, Kubernetes, Azure DevOps, GitHub Actions.</p>
-          <p><strong>Description:</strong> A microservices-based library app deployed on Azure for scalability and efficiency..</p>
+          <h2>Created a Company Attendance Portal Application</h2>
+          <p><strong>Technologies:</strong> HTML, CSS, React, Javascript, Bootstrap, Node Js</p>
+          <p><strong>Description:</strong> Created Attendance website portal for the Company</p>
           <ul>
-              <li>Designed and deployed microservices on Azure.</li>
-              <li>Automated CI/CD with Azure DevOps & GitHub Actions.</li>
-              <li>Scaled with Kubernetes and serverless functions.</li>
-              <li>Monitored performance using Azure tools.</li>
+              <li>Developed a web-based Employee Attendance Portal to streamline attendance tracking</li>
+              <li>Featuring secure login .</li>
+              <li>SQL database integration for managing records efficiently.</li>
+
           </ul>
       </div>
       <div className="project-card">
-          <h2>EdTech Management Portal</h2>
-          <p><strong>Description:</strong> An interactive web platform that enables students to explore and learn various technologies. The portal allows students to track assignments, view scores, manage learning schedules, and receive job notifications.</p>
-          <p><strong>Technologies:</strong> React, JavaScript, Next.js, Redux Toolkit</p>
-          <p><strong>Role:</strong> Software Developer</p>
-          <p><strong>Team Size:</strong> 8</p>
+          <h2>French Translation Using Char-Level Seq2Seq Lstm</h2>
+          <p><strong>Description:</strong>Created a AI powered english to French language transition NLP Model </p>
+          <p><strong>Technologies:</strong> Python, TensorFlow, Keras, LSTM, NLP</p>
+          <p><strong>Role:</strong> Team Member </p>
           <ul>
-              <li>Developed responsive web pages and reusable stateful components using React and Next.js.</li>
-              <li>Integrated REST APIs for dynamic data handling and seamless user experience.</li>
-              <li>Managed global state using Redux Toolkit to ensure consistent application state across components.</li>
-              <li>Delivered user stories on time while following Agile methodology.</li>
+              <li>Built a character-level Seq2Seq model with LSTM for French-to-English translation.</li>
+              <li>Preprocessed and vectorized text data for effective character encoding.</li>
+              <li>Trained model using TensorFlow and Keras with teacher forcing and padding.</li>
           </ul>
       </div>
   

@@ -4,7 +4,7 @@ const ProfileSection = () => {
         <div className="profile-content">
             <div className="profile-image-container1">
                 <img
-                    src="../../1702144066516.jpg" 
+                    src="../../devi_image.jpg" 
                     alt="Profile" 
                     className="profile-image1" 
                 />
@@ -47,7 +47,7 @@ const ProfileSection = () => {
                     </i>
                 </div>
                 
-                <a href="../../Nandavamsi_Singireddy.pdf" download="Nandavamsi_Singireddy.PDF">
+                <a href="../../Devisri_resume.pdf" download="Nandavamsi_Singireddy.PDF">
                 <button className="download-cv">Download CV</button>
    
 </a>
